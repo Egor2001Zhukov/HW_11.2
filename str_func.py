@@ -7,7 +7,7 @@ def big_letter(string_: str):
 
 
 def big_first_letter(string_: str):
-    result = []
+    result = list()
     for word in string_.split(" "):
         result.append(word.title())
     return " ".join(result)
